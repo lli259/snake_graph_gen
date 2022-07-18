@@ -3,7 +3,7 @@ import random
 import os
 import sys
 
-SIZE_BOARD=11
+SIZE_BOARD=12
 PRE_BOXES=6
 
 if not os.path.isdir('snake'):
@@ -48,7 +48,6 @@ def validdis(a,an,b,bn):
         return False
     else:
         return True
-
 
 
 
