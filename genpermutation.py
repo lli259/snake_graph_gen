@@ -1,13 +1,13 @@
 import itertools
 import random
 boundings=[]
-for i in range(1,11):
+for i in range(1,12):
     boundings.append((1,i))
-    boundings.append((10,i))
+    boundings.append((11,i))
 
-for i in range(2,10):
+for i in range(2,11):
     boundings.append((i,1))
-    boundings.append((i,10))
+    boundings.append((i,11))
 
 #print(len(boundings))
 #boundings=[1,2,3,4,5]
